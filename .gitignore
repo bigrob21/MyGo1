@@ -1,0 +1,7 @@
+**/bin/**
+**/pkg/**
+.project
+**/.project
+**/.classpath
+**/.settings
+.metadata
