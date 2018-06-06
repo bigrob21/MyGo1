@@ -1,12 +1,16 @@
 package main
 
-import ("fmt")
+import "fmt"
 
-func main(){
-	xs := []float64{98,99,1,100,21}
+func main() {
+	a := []float64{1.0, 200.4, 21.2, 99.97}
+	fmt.Printf("Average generated is %3f", average(a))
+}
+
+func average(xs []float64) float64 {
 	total := 0.0
-	for _, v:=range xs {
-		total +=v
+	for _, v:= range xs {
+		total += v		
 	}
-	fmt.Println(total /float64(len(xs)))
+	return total / float64(len(xs))
 }
