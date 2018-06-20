@@ -1,0 +1,2 @@
+This is a Simple dummy file for Reader1.go to read. 
+EOF
