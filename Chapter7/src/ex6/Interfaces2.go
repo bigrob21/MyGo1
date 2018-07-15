@@ -4,7 +4,6 @@ import "fmt"
 
 type Logic struct{ /* */ } 
 
-//var _ broker.Interface = &BusinessLogic{}
 var sumOfAllInterfaces Interface3 = &Logic{}
 
 type Interface1 interface{
